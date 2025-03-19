@@ -1,6 +1,6 @@
-// Scroll Animation for Fade-in Effect
+// Scroll Animation for Smooth Appearance
 document.addEventListener("DOMContentLoaded", function () {
-    const fadeElements = document.querySelectorAll(".fade-in");
+    const fadeElements = document.querySelectorAll(".container");
 
     const fadeInOnScroll = () => {
         fadeElements.forEach((element) => {
