@@ -85,6 +85,20 @@ img:hover {
 .image-gallery img:hover {
     transform: scale(1.1);
 }
+.top-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust spacing below the image */
+}
+
+.top-banner img {
+    width: 80%;  /* Adjust this if needed */
+    max-height: 200px; /* Set a height limit */
+    object-fit: cover;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 
 /* Fade-in Effect */
